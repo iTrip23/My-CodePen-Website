@@ -1,0 +1,166 @@
+#main {
+  background-color: #edb200;
+  padding: 0px 200px;
+}
+p {
+  text-align: justify;
+  color: #241f20;
+  background-color: #edb200;
+}
+h5 {
+  color: #d01013;
+  text-align: center;
+}
+h3 {
+  color: #d01013;
+  text-align: center;
+}
+h1 {
+  color: #d01013;
+  padding-top: 60px;
+}
+#title {
+  text-align: center;
+}
+#image {
+    width: 60%;
+    max-width: 100%;
+    border: 6px solid #d01013;
+  /*
+    border-width: 6px;
+    border-style: solid;
+    border-color: #d01013;
+  */
+    border-radius: 20px; 
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: -200px;
+  background-color: #e3c57e;
+  border: 1px solid #571c33;
+}
+ul li {
+  display: inline;
+  float: left;
+}
+ul li a {
+  display: block;
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  color: #220e19;
+  font-weight: bold;
+}
+ul li a:hover {
+  background-color: #bd9028;
+}
+body {
+  background-color: #edb200;
+  margin: 0;
+}
+.titles {
+  text-align: center;
+}
+#img-caption {
+  background-color: #edb200;
+  color: #220e19;
+}
+#wiki {
+  background-color: #edb200;
+  padding: 0px 200px;
+}
+#tribute-info{
+  background-color: #edb200;
+  padding: 0px 200px;
+}
+span {
+  margin-left: 50px;
+}
+#about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+p::first-letter {
+  font-size: 150%;
+  color: #d01013;
+  font-weight: bold;
+}
+h1::first-letter {
+  font-size: 150%;
+  color: #241f20;
+  font-weight: bold;
+}
+h3::first-letter {
+  font-size: 150%;
+  color: #241f20;
+  font-weight: bold;
+}
+h5::first-letter {
+  font-size: 150%;
+  color: #241f20;
+  font-weight: bold;
+}
+#written {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#directed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+footer {
+  padding: 0px 200px;
+}
+ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+ol li a {
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+  font-weight: bold;
+}
+ol li a:hover {
+  background-color: #e3c57e;
+}
+.script {
+  width: 70%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  ul li {
+    float: center;
+  }
+  #main {
+    padding: 20px;
+  }
+  ol {
+   display: flex;
+   flex-flow: row wrap;
+   font-size: 10px;
+  }
+  #tribute-info {
+    padding: 20px;
+  }
+  #wiki {
+    padding: 20px;
+  }
+  
+}
